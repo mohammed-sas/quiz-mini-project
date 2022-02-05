@@ -23,9 +23,17 @@ nav{
     justify-content: center;
     align-items: center;
 }
+main{
+    width: 70%;
+    margin: 1rem auto;
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .quiz-body{
     display: flex;
-    height: 20rem;
+    height: 32rem;
     flex-direction: column;
     justify-content: space-between;
 }
@@ -44,21 +52,14 @@ nav{
     height: 3rem;
     width: 10rem;
 }
-main{
-    width: 70%;
-    height: 50vh;
-    margin: 1rem auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 
 
 .options-container{
     display: grid;
-    grid-template-columns: repeat(2,1fr);
-    grid-template-rows: repeat(2,1fr);
+    grid-template-columns:1fr;
+    grid-template-rows: repeat(4,1fr);
     gap: 1rem;
 }
 
@@ -69,19 +70,16 @@ main{
 }
 
 .option-item:hover{
-    box-shadow:0 4px 10px var(--maroon);
+    background:var(--maroon);
+}
+.option-item:hover span{
+    color: white;
 }
 
 
 @media only  screen and (max-width:600px) {
     html{
         font-size: 50%;
-    }
-
-    .options-container{
-        grid-template-columns: 1fr;
-        grid-template-rows: repeat(4,1fr);
-        gap: 1rem;
     }
 
 }
