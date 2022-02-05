@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
 }
+img{
+    max-inline-size: 100%;
+}
 
 nav{
     background: var(--primary);
@@ -19,6 +22,10 @@ nav{
 }
 .nav-links button:hover{
     background-color: var(--secondary);
+}
+.hero-image img{
+    width: 100%;
+    height: 40rem;
 }
 
 body{
