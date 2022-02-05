@@ -4,6 +4,7 @@
 }
 img{
     max-inline-size: 100%;
+    aspect-ratio: 4/1;
 }
 
 nav{
@@ -24,8 +25,7 @@ nav{
     background-color: var(--secondary);
 }
 .hero-image img{
-    width: 100%;
-    height: 40rem;
+    width: 100%
 }
 
 body{
@@ -57,4 +57,13 @@ body{
 }
 .grey{
     color: var(--grey);
+}
+
+@media only screen and (max-width:900px){
+    html{
+        font-size: 50%;
+    }
+    .featured-container{
+        flex-direction: column;
+    }
 }
