@@ -16,11 +16,11 @@ main {
     width: 80%;
     margin: 1rem auto;
     display: flex;
+    gap: 2rem;
     flex-direction: column;
-    gap: 3rem;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    
 }
 
 .progress-bar{
@@ -30,6 +30,7 @@ main {
     position: relative;
     border:2px solid var(--maroon);
     border-radius:5rem;
+    margin-bottom: 6rem;
 }
 .progress-bar::before{
     content: '0%';
@@ -56,7 +57,25 @@ main {
     width: 50%;
     transition: all 0.2s width;
 }
+.option-item{
+    width:50rem;
+}
+.option-item.success{
+    background:#15803d;
+    border: none;
+}
+.option-item.fail{
+    background: #b91c1c;
+    border: none;
+}
+.option-item.success span,.option-item.fail span{
+    color: var(--white);
 
+}
+
+input[type="radio"]{
+    display: none;
+}
 @media only screen and (max-width:600px){
     html{
         font-size: 50%;
