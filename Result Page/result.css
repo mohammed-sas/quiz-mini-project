@@ -1,0 +1,64 @@
+.gray-300 {
+    color: var(--gray-300);
+}
+*{
+    box-sizing: content-box;
+}
+.black {
+    color: var(--black);
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    width: 80%;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.progress-bar{
+    height: 5rem;
+    width: 50rem;
+    padding: 5px;
+    position: relative;
+    border:2px solid var(--maroon);
+    border-radius:5rem;
+}
+.progress-bar::before{
+    content: '0%';
+    font-size: 2rem;
+    display: block;
+    position: absolute;
+    color: var(--gray-300);
+    bottom: -5rem;
+    left:-1rem;
+}
+.progress-bar::after{
+    content: '100%';
+    font-size: 2rem;
+    display: block;
+    position: absolute;  
+    color: var(--gray-300);
+    bottom: -5rem;
+    right: -2rem;
+}
+.progress{
+    height: 5rem;
+    border-radius: 5rem;
+    background: var(--primary);
+    width: 50%;
+    transition: all 0.2s width;
+}
+
+@media only screen and (max-width:600px){
+    html{
+        font-size: 50%;
+    }
+}
