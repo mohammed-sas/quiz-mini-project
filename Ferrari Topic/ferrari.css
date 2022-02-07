@@ -28,14 +28,28 @@ main{
     margin: 1rem auto;
     margin-top: 4rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 .quiz-body{
     display: flex;
     height: 32rem;
+    width: 55rem;
     flex-direction: column;
     justify-content: space-between;
+}
+.quiz-header{
+    display: flex;
+    width: 55rem;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+input[type="radio"]{
+    display: none;
+}
+.quiz-header>*{
+    font-weight: 200;
 }
 .question-container{
     display: flex;
@@ -53,20 +67,19 @@ main{
     width: 10rem;
 }
 
-
-
-
 .options-container{
     display: grid;
     grid-template-columns:1fr;
     grid-template-rows: repeat(4,1fr);
     gap: 1rem;
+    width:55rem;
 }
 
 .option-item{
     border:1px solid var(--secondary);
     border-radius: 5px;
     padding: 2rem;
+    width: 50rem;
 }
 
 .option-item:hover{
