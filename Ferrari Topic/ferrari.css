@@ -88,6 +88,31 @@ input[type="radio"]{
     color: white;
 }
 
+.timer-container{
+    width: 55rem;
+    display: flex;
+    justify-content:center;
+    margin-bottom: 3rem;
+}
+.timer{
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 1rem solid var(--success);
+    border-radius: 50%;
+    animation-name: pulse;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse{
+    0% {outline-width: 1rem;}
+    50% {outline-width: 1.4rem;}
+    100%{outline-width: 1rem;}
+}
 
 @media only  screen and (max-width:600px) {
     html{
