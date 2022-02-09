@@ -1,0 +1,43 @@
+.quiz-form-container{
+    border: 1px solid var(--primary);
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 40rem;
+}
+
+.quiz-form{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+label{
+    font-size: 1.4rem;
+    margin:5px 0 ;
+}
+.quiz-form input{
+    background: none;
+    border: none;
+    height: 1.4rem;
+    padding: 1rem;
+    border-radius: 5px;
+    outline: 1px solid var(--secondary);
+}
+.quiz-form input:focus{
+    outline: 1px solid var(--white);
+}
+.btn-primary{
+    background: var(--primary);
+}
+.btn-primary:hover{
+    background: var(--secondary);
+}
+.form-item{
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width:600px) {
+    html{
+        font-size: 50%;
+    }
+}
