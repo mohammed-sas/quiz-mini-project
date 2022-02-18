@@ -6,14 +6,14 @@ These screens are mock screens intended to use in the Quiz React Application, ma
 
 
 ## P0 Screens
-1.Home Page\
-2.Quiz by category\
-3.Rules Page\
-4.MCQ based Quiz Questions\
-5.Results Page
+1.[Home Page](https://mhd-quiz-app-screens.netlify.app/landing%20page/landing)\
+2.[Quiz by category](https://mhd-quiz-app-screens.netlify.app/landing%20page/landing)\
+3.[Rules Page](https://mhd-quiz-app-screens.netlify.app/rules%20page/rules)\
+4.[MCQ based Quiz Questions](https://mhd-quiz-app-screens.netlify.app/ferrari%20topic/ferrari)\
+5.[Results Page](https://mhd-quiz-app-screens.netlify.app/ferrari%20topic/ferrari)
 ## P1 and P2 Screens
-1.P1 - Timer For Quiz\
-2.P2 - Create Quiz
+1.[P1 - Timer For Quiz](https://mhd-quiz-app-screens.netlify.app/ferrari%20topic/ferrari)\
+2.[P2 - Create Quiz](https://mhd-quiz-app-screens.netlify.app/create%20quiz/create-quiz)
 ## Screenshots
 
 Home Page:
